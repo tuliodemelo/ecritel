@@ -1,15 +1,30 @@
 {
-  "name": "ecritel/cms-page-author",
-  "description": "Ecritel Cms Page Author Module",
-  "minimum-stability": "stable",
-  "license": "proprietary",
-  "authors": [
-    {
-      "name": "Tulio de Melo",
-      "email": "tuliodemelo@gmail.com"
-    }
-  ],
-  "require": {
-    "php": ">8.1.0"
-  }
+    "name": "ecritel/cms-page-author",
+    "description": "Ecritel CMS Page Author Module",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Caravel Core Team"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.1"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Ecritel\\CmsPageAuthor\\\\": ""
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://github.com/tuliodemelo/ecritel.git"
+        }
+    ]
 }

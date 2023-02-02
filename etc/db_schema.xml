@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author      Tulio de Melo | Caravel Core Team
+ * @copyright   2023 Caravel (https://caravel.com.br)
+ * @license     Caravel Proprietary
+ * @link        https://caravel.com.br
+ */
+-->
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+    <table name="cms_page"
+           resource="default"
+           engine="innodb"
+           comment="CMS Page Table extension">
+        <column xsi:type="varchar" name="author" nullable="true" length="250" comment="CMS Page Author"/>
+    </table>
+</schema>

@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<!--
+/**
+ * @author      Tulio de Melo | Caravel Core Team
+ * @copyright   2023 Caravel (https://caravel.com.br)
+ * @license     Caravel Proprietary
+ * @link        https://caravel.com.br
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="Ecritel_CmsPageAuthor">
+        <sequence>
+            <module name="Magento_Cms" />
+        </sequence>
+    </module>
+</config>

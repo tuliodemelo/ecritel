@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * @author      Tulio de Melo | Caravel Core Team
+ * @copyright   2023 Caravel (https://caravel.com.br)
+ * @license     Caravel Proprietary
+ * @link        https://caravel.com.br
+ */
+-->
+<listing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+    <columns name="cms_page_columns">
+        <column name="author" sortOrder="9">
+            <settings>
+                <filter>text</filter>
+                <editor>
+                    <validation>
+                        <rule name="required-entry" xsi:type="boolean">false</rule>
+                    </validation>
+                    <editorType>text</editorType>
+                </editor>
+                <label translate="true">Author</label>
+            </settings>
+        </column>
+    </columns>
+</listing>
