@@ -3,9 +3,7 @@
     "description": "Ecritel CMS Page Author Module",
     "type": "magento2-module",
     "version": "1.0.0",
-    "license": [
-        "Commercial"
-    ],
+    "license": "proprietary",
     "authors": [
         {
             "name": "Caravel Core Team"
